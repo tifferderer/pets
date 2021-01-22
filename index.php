@@ -18,7 +18,7 @@ $f3->set('DEBUG', 3);
 $f3->route('GET /', function() {
     echo "Pet home"; //(home page, no index.php, go to directory)
 //    $view = new Template();
-//    echo $view->render('views/home.html');
+//    echo $view->render('view/home.html');
 });
 
 //Run fat free
